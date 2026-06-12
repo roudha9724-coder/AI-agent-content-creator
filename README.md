@@ -14,15 +14,15 @@ Future versions of this project will:
 Planned workflow:
 
 Google Sheets
-↓
+>
 Transcript Extraction
-↓
+>
 AI Content Generation
-↓
+>
 Wait Until Scheduled Time
-↓
+>
 Instagram Graph API
-↓
+>
 Publish Post
-↓
+>
 Update Status = Posted
