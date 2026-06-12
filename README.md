@@ -1,63 +1,16 @@
-\# AI-agent-content-creator
+# AI Agent Content Creator
 
-The project AI agent content creator  Detect phishing, scam messages, and suspicious sponsorship requests. Prevent account unauthorized attempts. Identify fake accounts, impersonation attacks, and deepfake content. Protect their reputation and original content from theft, misuse, and misinformation.
+This project is an AI content creator workflow built with n8n.
 
+It reads YouTube URLs from Google Sheets, extracts the transcript, sends it to Groq AI, generates Instagram captions, hashtags, and summaries, then updates the Google Sheet and marks the task as Completed.
 
+## Tools Used
 
-\## Future Enhancements
-
-
-
-\### Instagram Auto Posting
-
-
-
-Future versions of this project will:
-
-
-
-\- Connect to Instagram Graph API
-
-\- Automatically publish posts at scheduled times
-
-\- Update posting status in Google Sheets
-
-
-
-Planned workflow:
-
-
-
-Google Sheets
-
->
-
-Transcript Extraction
-
->
-
-AI Content Generation
-
->
-
-Wait Until Scheduled Time
-
->
-
-Instagram Graph API
-
->
-
-Publish Post
-
->
-
-Update Status = Posted
-
-
-
-# AI-agent-content-creator
-The project AI agent content creator  Detect phishing, scam messages, and suspicious sponsorship requests. Prevent account unauthorized attempts. Identify fake accounts, impersonation attacks, and deepfake content. Protect their reputation and original content from theft, misuse, and misinformation.
+- n8n
+- Google Sheets
+- Supadata API
+- Groq AI
+- HTTP Request node
 
 ## Future Enhancements
 
@@ -71,17 +24,8 @@ Future versions of this project will:
 
 Planned workflow:
 
-Google Sheets
->
-Transcript Extraction
->
-AI Content Generation
->
-Wait Until Scheduled Time
->
-Instagram Graph API
->
-Publish Post
->
-Update Status = Posted
->>>>>>> 601f63deaea11b8195cc1076043349aadad42435
+Google Sheets → Transcript Extraction → AI Content Generation → Wait Until Scheduled Time → Instagram Graph API → Publish Post → Update Status = Posted
+
+## Workflow Screenshot
+
+![Workflow](workflow-screenshot.png)
