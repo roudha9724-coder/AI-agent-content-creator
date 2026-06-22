@@ -40,7 +40,7 @@ Future versions of this project will improve the workflow by:
 
 ## Workflow Screenshot
 
-![Workflow](images/workflow-screenshot.png)
+![Workflow](Ai%20agent%20content%20creator.png)
 
 ## Features
 
