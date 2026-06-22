@@ -29,3 +29,27 @@ Google Sheets → Transcript Extraction → AI Content Generation → Wait Until
 ## Workflow Screenshot
 
 ![Workflow](workflow-screenshot.png)
+
+## Features
+
+- Reads YouTube URLs from Google Sheets
+- Extracts video transcripts using Supadata API
+- Generates Instagram captions using Groq AI
+- Creates hashtags and content summaries
+- Updates Google Sheets automatically
+- Supports future Instagram auto-posting integration
+
+## Project Status
+
+Current Status: In Development
+
+Completed:
+- Google Sheets integration
+- Transcript extraction
+- AI caption generation
+- Workflow automation in n8n
+
+In Progress:
+- Instagram Graph API integration
+- Automated post publishing
+
