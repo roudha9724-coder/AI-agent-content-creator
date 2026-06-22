@@ -65,3 +65,54 @@ In Progress:
 - Instagram Graph API integration
 - Automated post publishing
 
+## Requirements
+
+Before using or enhancing this project, make sure the following tools and services are available:
+
+Software Requirements
+- n8n (Workflow Automation Platform)
+- Google Account (for Google Sheets integration)
+- Git and GitHub
+- Modern web browser (Chrome, Edge, or Firefox)
+  
+API Requirements
+- Groq API Key
+- Supadata API Key
+- Meta Developer Account
+- Instagram Business or Creator Account
+- Facebook Page connected to the Instagram account
+- Instagram Graph API Access Token
+- Google Sheets Setup
+
+The Google Sheet should contain the following columns:
+
+- Column
+- videoUrl
+- platform
+- postTime
+- status
+- transcript
+- caption
+- approvalStatus
+- hashtags
+- imageUrl
+
+## Recommended Workflow
+1. Add a YouTube URL to Google Sheets.
+2. Set the status to To Do.
+3. Run the n8n workflow.
+4. The workflow extracts the transcript.
+5. AI generates captions, hashtags, and summaries.
+6. Review the generated content.
+7. Add or verify the image URL.
+8. Approve the content.
+9. Publish the post to Instagram.
+
+## Technologies Used
+- n8n
+- Google Sheets
+- Supadata API
+- Groq AI
+- Meta Graph API
+- Instagram Graph API
+- GitHub
