@@ -40,7 +40,7 @@ Future versions of this project will improve the workflow by:
 
 ## Workflow Screenshot
 
-![Workflow](workflow-screenshot.png)
+![Workflow](images/workflow-screenshot.png)
 
 ## Features
 
