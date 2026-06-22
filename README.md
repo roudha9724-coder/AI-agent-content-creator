@@ -12,19 +12,31 @@ It reads YouTube URLs from Google Sheets, extracts the transcript, sends it to G
 - Groq AI
 - HTTP Request node
 
+## Instagram Auto Posting
+
+This project has been extended to support Instagram auto-posting using the Meta Instagram Graph API.
+
+The workflow can:
+
+- Generate Instagram captions using AI
+- Use a public image URL for the Instagram post
+- Create Instagram media through the Meta Graph API
+- Publish the media to Instagram
+- Update the posting status in Google Sheets
+
+Workflow:
+
+Google Sheets → Transcript Extraction → AI Content Generation → Wait Until Scheduled Time → Create Instagram Media → Publish Instagram Post → Update Status = Posted
+
 ## Future Enhancements
 
-### Instagram Auto Posting
+Future versions of this project will improve the workflow by:
 
-Future versions of this project will:
-
-- Connect to Instagram Graph API
-- Automatically publish posts at scheduled times
-- Update posting status in Google Sheets
-
-Planned workflow:
-
-Google Sheets → Transcript Extraction → AI Content Generation → Wait Until Scheduled Time → Instagram Graph API → Publish Post → Update Status = Posted
+- Separating captions, hashtags, and summaries into different Google Sheet columns
+- Adding an approval step before posting
+- Generating AI images automatically
+- Improving error handling for expired access tokens
+- Supporting multiple social media platforms
 
 ## Workflow Screenshot
 
