@@ -34,7 +34,7 @@ After the AI workflow completes, the generated content is automatically publishe
 
 ### Example Output
 
-![Instagram Posting Result](instagram-posting-result.png)
+![Instagram Posting Result](ai%20safety%20insta.png)
 
 ## Future Enhancements
 
