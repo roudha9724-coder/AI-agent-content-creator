@@ -28,6 +28,14 @@ Workflow:
 
 Google Sheets → Transcript Extraction → AI Content Generation → Wait Until Scheduled Time → Create Instagram Media → Publish Instagram Post → Update Status = Posted
 
+## Instagram Posting Result
+
+After the AI workflow completes, the generated content is automatically published to the connected Instagram Business account using the Instagram Graph API.
+
+### Example Output
+
+![Instagram Posting Result](instagram-posting-result.png)
+
 ## Future Enhancements
 
 Future versions of this project will improve the workflow by:
